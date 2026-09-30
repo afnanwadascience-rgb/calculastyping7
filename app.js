@@ -1,4 +1,5 @@
-
+const $ = selector => document.querySelector(selector);
+const $$ = selector => [...document.querySelectorAll(selector)];
 const passages = {
   standard: [
     "Good typing is not about rushing. It is about building a steady rhythm, keeping your hands relaxed, and making fewer corrections. With regular practice, accuracy becomes automatic and speed follows.",
